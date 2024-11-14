@@ -1,0 +1,89 @@
+/* Container for the cards */
+.food-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Individual card styling */
+.food-card {
+  position: relative;
+  width: 100%;
+  max-width: 250px; /* Controls the max width of each card */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+/* Hover effect for card */
+.food-card:hover {
+  transform: scale(1.05);
+}
+
+/* Discount badge styling */
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ffc107; /* Orange color for discount badge */
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+/* Image styling */
+.food-image {
+  width: 100%;
+  height: 150px; /* Adjust based on desired image height */
+  object-fit: cover;
+}
+
+/* Card content styling */
+.card-content {
+  padding: 15px;
+}
+
+/* Food name styling */
+.food-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Days remaining badge styling */
+.days-remaining {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #f8d7da; /* Light red background for days remaining */
+  color: #721c24; /* Dark red text color */
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (min-width: 576px) {
+  .food-card {
+    flex: 1 1 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  .food-card {
+    flex: 1 1 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .food-card {
+    flex: 1 1 23%;
+  }
+}
