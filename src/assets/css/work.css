@@ -1,0 +1,39 @@
+.work-section {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(244, 235, 219, 0.982);
+}
+
+.work-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.work-steps {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* Makes it responsive */
+}
+
+.work-step {
+  text-align: center;
+  max-width: 200px;
+}
+
+.work-image {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.work-title {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.work-description {
+  font-size: 0.9rem;
+  color: #666;
+}
