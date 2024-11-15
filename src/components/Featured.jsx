@@ -82,7 +82,7 @@ const restaurants = [
     name: "Pizzahub",
     rating: 40,
     status: "Opens tomorrow",
-  },
+  }, 
   // Add additional restaurant data here...
 ];
 
