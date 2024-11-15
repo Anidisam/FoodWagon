@@ -1,0 +1,87 @@
+.popular-section {
+  text-align: center;
+  padding: 2rem;
+}
+
+.popular-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.popular-items-container {
+  display: grid;
+  grid-template-columns: repeat(5, 180px); /* Default for larger screens */
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.popular-item {
+  text-align: center;
+}
+
+.popular-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.popular-title {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.popular-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+}
+
+.location-icon {
+  color: red;
+  margin-right: 5px;
+}
+
+.popular-price {
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.order-btn {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.arrow-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.arrow-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Mobile layout: Show two items per row */
+@media (max-width: 768px) {
+  .popular-items-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .popular-item {
+    width: 100%;
+  }
+}
