@@ -19,7 +19,6 @@ function App() {
       <Popular />
       <Featured />
       <Best />
-      
     </>
   )
 }
