@@ -6,6 +6,7 @@ import FoodCards from "./components/FoodCards"
 import Work from "./components/Work"
 import Popular from "./components/Popular"
 import Featured from "./components/Featured"
+import Best from "./components/Best"
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <Work />
       <Popular />
       <Featured />
+      <Best />
+      
     </>
   )
 }

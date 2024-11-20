@@ -1,88 +1,106 @@
 import React from "react";
 import "../assets/css/featured.css"; // Import custom CSS for styling
 
+import fe1 from "../assets/images/f1.svg";
+import fe2 from "../assets/images/f2.svg";
+import fe3 from "../assets/images/f3.svg";
+import fe4 from "../assets/images/f4.svg";
+import fe5 from "../assets/images/f5.svg";
+import fe6 from "../assets/images/f6.svg";
+import fe7 from "../assets/images/f7.svg";
+import fe8 from "../assets/images/f8.svg";
+
+import log1 from "../assets/images/logo1.svg";
+import log2 from "../assets/images/logo2.svg";
+import log3 from "../assets/images/logo3.svg";
+import log4 from "../assets/images/logo4.svg";
+import log5 from "../assets/images/logo5.svg";
+import log6 from "../assets/images/logo6.svg";
+import log7 from "../assets/images/logo7.svg";
+import log8 from "../assets/images/logo8.svg";
+
 // Data for the featured restaurants
 const restaurants = [
   {
     id: 1,
-    image: "assets/images/image1.svg",
+    image: fe1,
     discount: "20% off",
     fastDelivery: "Fast",
-    logo: "assets/images/logo1.svg",
+    logo: log1,
     name: "Foodworld",
     rating: 46,
-    status: "Opens tomorrow",
+    status: "Opens Now",
   },
   {
     id: 2,
-    image: "assets/images/image2.svg",
+    image: fe2,
     discount: "15% off",
     fastDelivery: "Fast",
-    logo: "assets/images/logo2.svg",
+    logo: log2,
     name: "Pizzahub",
     rating: 40,
     status: "Opens tomorrow",
   },
   {
     id: 3,
-    image: "assets/images/image2.svg",
+    image: fe3,
     discount: "15% off",
     fastDelivery: "Fast",
-    logo: "assets/images/logo2.svg",
+    logo: log3,
     name: "Pizzahub",
     rating: 40,
-    status: "Opens tomorrow",
+    status: "Opens Now",
   },
   {
     id: 4,
-    image: "assets/images/image2.svg",
+    image: fe4,
     discount: "15% off",
     fastDelivery: "Fast",
-    logo: "assets/images/logo2.svg",
+    logo: log4,
     name: "Pizzahub",
     rating: 40,
     status: "Opens tomorrow",
   },
   {
     id: 5,
-    image: "assets/images/image2.svg",
+    image: fe5,
     discount: "15% off",
     fastDelivery: "Fast",
-    logo: "assets/images/logo2.svg",
+    logo: log5,
     name: "Pizzahub",
     rating: 40,
-    status: "Opens tomorrow",
+    status: "Opens Now",
   },
   {
     id: 6,
-    image: "assets/images/image2.svg",
+    image: fe6,
     discount: "15% off",
     fastDelivery: "Fast",
-    logo: "assets/images/logo2.svg",
+    logo: log6,
     name: "Pizzahub",
     rating: 40,
     status: "Opens tomorrow",
   },
   {
     id: 7,
-    image: "assets/images/image2.svg",
+    image: fe7,
     discount: "15% off",
     fastDelivery: "Fast",
-    logo: "assets/images/logo2.svg",
+    logo: log7,
+    name: "Pizzahub",
+    rating: 40,
+    status: "Opens Now",
+  },
+  {
+    id: 8,
+    image: fe8,
+    discount: "15% off",
+    fastDelivery: "Fast",
+    logo: log8,
     name: "Pizzahub",
     rating: 40,
     status: "Opens tomorrow",
   },
-  {
-    id: 8,
-    image: "assets/images/image2.svg",
-    discount: "15% off",
-    fastDelivery: "Fast",
-    logo: "assets/images/logo2.svg",
-    name: "Pizzahub",
-    rating: 40,
-    status: "Opens tomorrow",
-  }, 
   // Add additional restaurant data here...
 ];
 
