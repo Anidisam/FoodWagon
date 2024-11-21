@@ -2,10 +2,10 @@ import React from "react";
 import "../assets/css/work.css"; // Make sure to create this CSS file for styling
 
 // Import your images
-import image1 from "../assets/images/icon-images";
-import image2 from "../assets/images/icons-images";
-import image3 from "../assets/images/ico-images";
-import image4 from "../assets/images/ic-images";
+import image1 from "../assets/images/icon1.svg";
+import image2 from "../assets/images/icon2.svg";
+import image3 from "../assets/images/icon3.svg";
+import image4 from "../assets/images/icon4.svg";
 
 const workSteps = [
   {

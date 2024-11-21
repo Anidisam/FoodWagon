@@ -1,0 +1,62 @@
+.footer {
+  background-color: #222;
+  color: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.footer-heading {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer p,
+.footer li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-icon {
+  margin-right: 10px;
+  color: #ffbb33; /* Accent color for icons */
+}
+
+.list-unstyled {
+  padding: 0;
+  list-style: none;
+}
+
+.newsletter-form input {
+  border-radius: 5px;
+}
+
+.newsletter-form button {
+  border-radius: 5px;
+  background-color: #ffbb33;
+  color: #222;
+}
+
+.newsletter-form button:hover {
+  background-color: #ffa726;
+  color: #fff;
+}
+
+.social-links a {
+  color: #ffbb33;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffa726;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #aaa;
+}
